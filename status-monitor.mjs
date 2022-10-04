@@ -19,7 +19,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-async function getInputUserByUsername(optimusprime123x) {
+async function getInputUserByUsername(username) {
   let req = new Api.contacts.ResolveUsername({
     username: username
   })
@@ -32,7 +32,7 @@ async function getInputUserByUsername(optimusprime123x) {
   return result
 }
 
-async function getInputChannelByUsername(optimus_status) {
+async function getInputChannelByUsername(username) {
   let req = new Api.contacts.ResolveUsername({
     username: username
   })
