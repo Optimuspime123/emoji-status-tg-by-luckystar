@@ -119,5 +119,5 @@ while (true) {
     console.error(err)
     errorCount++
   }
-  await sleep(10000)
+  await sleep(60000)
 }
