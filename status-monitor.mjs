@@ -2,8 +2,8 @@ import { TelegramClient, Api } from 'telegram'
 import { StoreSession } from 'telegram/sessions/index.js'
 import input from 'input'
 
-const apiId = 12345
-const apiHash = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+const apiId = 19414784
+const apiHash = '5e655779639e178aaa116ea5f3c3629c'
 
 const storeSession = new StoreSession('session')
 const client = new TelegramClient(storeSession, apiId, apiHash, { connectionRetries: 5 })
