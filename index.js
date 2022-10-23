@@ -1,3 +1,3 @@
-"scripts": {
-    "start": "node status-monitor.mjs"
+"scripts" {
+    "start" : "node status-monitor.mjs"
   }
