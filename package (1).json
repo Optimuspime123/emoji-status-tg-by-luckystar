@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node status-monitor.mjs"
+  },
+  "dependencies": {
+    "input": "^1.0.1",
+    "telegram": "^2.12.8"
+  }
+}
